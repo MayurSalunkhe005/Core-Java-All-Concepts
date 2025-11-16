@@ -1,10 +1,10 @@
 package oops_concepts.interfac;
 
-public abstract class TestAbstract implements I1, I2 {
+public abstract class TestAbstract implements I2 {
 
 	abstract void m1();
 
-	void m2() {
+	public void m2() {
 
 	}
 

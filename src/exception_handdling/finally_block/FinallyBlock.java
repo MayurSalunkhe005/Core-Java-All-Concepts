@@ -12,5 +12,6 @@ public class FinallyBlock {
 		} finally {
 			System.out.println("I am finally block");
 		}
+		System.out.println("CONTINUE..");
 	}
 }

@@ -12,7 +12,7 @@ class B2 extends A2 {
 	}
 
 	void show() {
-		m1();
+		this.m1();
 		//super keyword can be used to invoke immediate parent class method.
 		super.m1();
 	}

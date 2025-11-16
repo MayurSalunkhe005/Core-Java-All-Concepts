@@ -2,6 +2,8 @@ package oops_concepts.abstraction;
 
 public class Car extends Vehicle {
 
+	static final int a = 10;
+	
 	void start() {
 		System.out.println("Car start with key");
 	}

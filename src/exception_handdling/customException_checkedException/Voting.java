@@ -1,25 +1,19 @@
 package exception_handdling.customException_checkedException;
 
-//checked exception
-public class UnderAgeException extends Exception {
+import java.lang.Runnable;
 
-//	UnderAgeException() {
-//		super("you are under age");
-//	}
-
-	UnderAgeException(String messege) {
-		super(messege);
+public class C extends new Runnable() {
+	public void run() {
+		
 	}
-}
-
-class Voting {
+} {
 	// public static void main(String[] args) throws UnderAgeException {
 	public static void main(String[] args) {
 
 		int age = 17;
 		try {
 			if (age < 18) {
-				throw new UnderAgeException("you are not eligible**");
+				throw new Voting("you are not eligible**");
 
 			} else {
 				System.out.println("you can vote");
@@ -28,5 +22,17 @@ class Voting {
 			e.printStackTrace();
 		}
 		System.out.println("continue");
+	}
+}
+
+//checked exception
+class Voting1 extends runna {
+
+//	UnderAgeException() {
+//		super("you are under age");
+//	}
+
+	Voting(String messege) {
+		super(messege);
 	}
 }
